@@ -3,7 +3,7 @@
 //  Hotel Management System
 //
 //  Created by Suman Patel and Sukrit Bagaria on 08/08/20.
-//  Copyright © 2020 Suman Patel and Sukrit Bagaria. All rights reserved.
+//  Copyright Â© 2020 Suman Patel and Sukrit Bagaria. All rights reserved.
 //
 
 
@@ -61,35 +61,19 @@ Room Room::addRoom(int roomnumber){
     cout << "*********";
     cout << "\nEnter the code for room type:";
     cin >> room.roomtype;
-    // while(room.roomtype != 'd' || 'D' || 'n' || 'N' || 'P' || 'p'){
-    //     cout << "Invalide Code!" << endl << "Enter the code again:";
-    //     cin >> room.roomtype;
-    // }
+ 
     cout << "\n***********";
     cout << "\n(AC->A)\n(Non-AC->N)";
     cout << "\n***********";
     cout << "\nEnter the code for room comfort:";
     cin >> room.comfort;
-    // while(room.comfort != 'a' || 'A' || 'n' || 'N'){
-    //     cout << "\nInvalide Code!" << endl << "Enter the code again:";
-    //     cin >> room.comfort;
-    // }
+    
     cout << "\n***********";
     cout << "\n(Single->S)\n(Double->D)";
     cout << "\n***********";
     cout << "\nEnter the code for room capacity:";
     cin >> room.capacity;
-    // while(room.capacity != 's' || 'S' || 'd' || 'D'){
-    //     cout << "\nInvalide Code!" << endl << "Enter the code again:";
-    //     cin >> room.capacity;
-    // }
-    // cout << "\n(Vacant->V)\n(Occupied->O)\n";
-    // cout << "\nEnter the code for room status";
-    // cin >> room.roomstatus;
-    // while(room.roomtype != 'V' || 'v' || 'O' || 'o'){
-    //     cout << "\nInvalide Code!" << endl << "Enter the code again:";
-    //     cin >> room.roomstatus;
-    // }
+   
     room.status=0;
     cout << "\nEnter the rent per day:";
     cin >> room.rent_per_day;
