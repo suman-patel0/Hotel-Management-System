@@ -1,0 +1,91 @@
+# depslib dependency file v1.0
+1626865164 source:g:\hotel management\hotel managementsystem\hotelmanager.cpp
+	<iostream>
+	<vector>
+	<cstring>
+	<string>
+	<fstream>
+	<sstream>
+	<windows.h>
+	"Customer.h"
+	"Room.h"
+	"hotelManager.h"
+	"sql.h"
+
+1626866077 g:\hotel management\hotel managementsystem\customer.h
+	<windows.h>
+
+1626846340 g:\hotel management\hotel managementsystem\room.h
+	<windows.h>
+	"Customer.h"
+
+1626859669 g:\hotel management\hotel managementsystem\hotelmanager.h
+	<windows.h>
+	"Room.h"
+
+1626846340 source:g:\hotel management\hotel managementsystem\main.cpp
+	<iostream>
+	<vector>
+	<cstring>
+	<string>
+	<fstream>
+	<sstream>
+	<windows.h>
+	"Customer.h"
+	"Room.h"
+	"hotelManager.h"
+	"sql.h"
+
+1626866021 source:g:\hotel management\hotel managementsystem\room.cpp
+	<iostream>
+	<vector>
+	<cstring>
+	<string>
+	<fstream>
+	<sstream>
+	<windows.h>
+	"hotelManager.h"
+	"Room.h"
+	"Customer.h"
+	"sql.h"
+
+1476096933 c:\program files (x86)\dev-cpp\mingw64\include\mysql.h
+	<sys/types.h>
+	<winsock.h>
+	"mysql_com.h"
+	"mysql_time.h"
+	"mysql_version.h"
+	"typelib.h"
+	"my_list.h"
+	"my_alloc.h"
+
+1476096946 c:\program files (x86)\dev-cpp\mingw64\include\mysql_com.h
+
+1476096972 c:\program files (x86)\dev-cpp\mingw64\include\mysql_time.h
+
+1476096983 c:\program files (x86)\dev-cpp\mingw64\include\mysql_version.h
+	<custom_conf.h>
+
+1476097123 c:\program files (x86)\dev-cpp\mingw64\include\typelib.h
+
+1476097168 c:\program files (x86)\dev-cpp\mingw64\include\my_list.h
+
+1476097177 c:\program files (x86)\dev-cpp\mingw64\include\my_alloc.h
+
+1626973826 g:\hotel management\hotel managementsystem\sql.h
+	<windows.h>
+	<mysql.h>
+
+1626846754 source:g:\hotel management\hotel managementsystem\sql.cpp
+	<iostream>
+	<vector>
+	<cstring>
+	<string>
+	<fstream>
+	<sstream>
+	<windows.h>
+	"hotelManager.h"
+	"Room.h"
+	"Customer.h"
+	"sql.h"
+
